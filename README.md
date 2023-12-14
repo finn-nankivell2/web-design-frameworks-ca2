@@ -4,7 +4,26 @@
 
 That is the brief
 
-#### Abstract Ideas:
+#### TODO:
 
+- Do the entire thing
 
+- [ ] - Finish figma design
 
+	- [ ] - Landing page
+
+	- [ ] - Menu section
+
+	- [ ] - Quick links
+
+	- [ ] - Footer
+
+	- [ ] - Nav
+
+	- [ ] - Maps section
+
+	- [ ] - images
+
+- [ ] - Finish bootstrap implementation
+
+	- [ ] - Make sure it's responsive!!
