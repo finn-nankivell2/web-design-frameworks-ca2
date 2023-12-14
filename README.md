@@ -10,19 +10,19 @@ That is the brief
 
 - [ ] - Finish figma design
 
-	- [ ] - Landing page
+	- [x] - Landing page
 
-	- [ ] - Menu section
+	- [x] - Menu section
 
-	- [ ] - Quick links
+	- [x] - Quick links
 
 	- [ ] - Footer
 
-	- [ ] - Nav
+	- [x] - Nav
 
-	- [ ] - Maps section
+	- [x] - Maps section
 
-	- [ ] - images
+	- [x] - Gallery
 
 - [ ] - Finish bootstrap implementation
 
