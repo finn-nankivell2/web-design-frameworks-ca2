@@ -3,14 +3,14 @@ $secondary: #192032;
 $success: #60ba62;
 $danger: #c7464e;
 $warning: #e39161;
-$info: #a1adcf;
+$info: #495e63;
 $light:	#ffffff;
 $dark: #171313;
 $white:	#ffffff;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@600;700&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Inter:wght@600;700&family=Leckerli+One&display=swap');
 
 
 h1 {
@@ -44,12 +44,18 @@ h5 {
 
 p {
 	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
 	// font-size: 20px;
 }
 
 #nav-logo {
 	width: auto;
 	max-height: 40px;
+}
+
+#footer-logo {
+	min-width: 200px;
+	max-height: 100px;
 }
 
 
@@ -63,7 +69,7 @@ p {
 	background-color: rgba(0.0, 0.0, 0.0, 0.8);
 }
 
-img {
+img.img-fit {
 	aspect-ratio: 1;
 	width: 100%;
 	object-fit: cover;
