@@ -1,12 +1,79 @@
 $primary: #e39161;
-$secondary: #495e63;
+$secondary: #192032;
 $success: #60ba62;
 $danger: #c7464e;
 $warning: #e39161;
 $info: #a1adcf;
 $light:	#ffffff;
-$dark: #242329;
+$dark: #171313;
 $white:	#ffffff;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@600;700&family=Leckerli+One&display=swap');
+
+
+h1 {
+	// font-size: 100px;
+	font-size: 6vw;
+	font-family: "Leckerli One", cursive;
+}
+
+h2 {
+	// font-size: 50px;
+	font-family: "Inter";
+	font-weight: 700;
+}
+
+h3 {
+	// font-size: 50px;
+	font-family: "Leckerli One", cursive;
+}
+
+h4 {
+	// font-size: 35px;
+	font-family: "Inter";
+	font-weight: 600;
+}
+
+h5 {
+	// font-size: 30px;
+	font-family: "Inter";
+	font-weight: 600;
+}
+
+p {
+	font-family: "IBM Plex Sans", sans-serif;
+	// font-size: 20px;
+}
+
+#nav-logo {
+	width: auto;
+	max-height: 40px;
+}
+
+
+#landing-page {
+	background-image: url("/images/gv.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#landing-page-tint {
+	background-color: rgba(0.0, 0.0, 0.0, 0.8);
+}
+
+img {
+	aspect-ratio: 1;
+	width: 100%;
+	object-fit: cover;
+}
+
+.img-dimmed {
+	background-position: center;
+	background-size: cover;
+}
+
+.img-dimmed div {
+	background-color: rgba(0.0, 0.0, 0.0, 0.5);
+}
