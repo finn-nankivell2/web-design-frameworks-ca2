@@ -4,7 +4,7 @@ $success: #60ba62;
 $danger: #c7464e;
 $warning: #e39161;
 $info: #495e63;
-$light:	#ffffff;
+$light:	#CCCBC3;
 $dark: #171313;
 $white:	#ffffff;
 
@@ -71,8 +71,9 @@ p {
 
 img.img-fit {
 	aspect-ratio: 1;
-	width: 100%;
 	object-fit: cover;
+	max-width: 25%;
+	height: auto;
 }
 
 .img-dimmed {
@@ -82,4 +83,10 @@ img.img-fit {
 
 .img-dimmed div {
 	background-color: rgba(0.0, 0.0, 0.0, 0.5);
+}
+
+
+#gallery-images img {
+	object-fit: cover;
+	aspect-ratio: 1;
 }

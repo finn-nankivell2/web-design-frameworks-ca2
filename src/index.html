@@ -10,24 +10,35 @@
 				integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 				crossorigin="anonymous"
 				/>
+
+		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 		<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	</head>
 	<body>
+		<nav class="position-sticky sticky-top navbar navbar-expand-md bg-black p-4">
+			<img id="nav-logo" src="images/logo.png" class="img-fluid navbar-brand"/>
+
+			<div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-end px-4">
+				<ul class="navbar-nav gap-2 h5">
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="#">ORDER</a></li>
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="menu.html">MENU</a></li>
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="#">GALLERY</a></li>
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="#">ABOUT</a></li>
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="#">CONTACT</a></li>
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="#">CART</a></li>
+					<li><a class="text-white nav-item link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="#">ACCOUNT</a></li>
+				</ul>
+			</div>
+
+			<button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+														 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+																																		 aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</nav>
 		<div id="landing-page" class="d-flex flex-column gap-4">
 			<div id="landing-page-tint">
-				<div class="container-fluid justify-content-between p-4 align-items-start d-flex">
-					<img id="nav-logo" src="images/logo.png" class="img-fluid"/>
-
-					<nav class="container navbar justify-content-end gap-4 h5">
-						<a class="text-white" href="#">ORDER</a>
-						<a class="text-white" href="#">MENU</a>
-						<a class="text-white" href="#">GALLERY</a>
-						<a class="text-white" href="#">ABOUT</a>
-						<a class="text-white" href="#">CONTACT</a>
-						<a class="text-white" href="#">ACCOUNT</a>
-					</nav>
-				</div>
-
 				<br>
 
 				<div class="d-flex flex-column gap-4 text-center my-5 opacity">
@@ -71,10 +82,10 @@
 			<div class="container-sm d-flex flex-column gap-4 align-items-center">
 				<h3 class="text-white text-centered">Our Locations</h3>
 
-				<div class="row container-sm gap-2 justify-content-center">
+				<div class="row container-md gap-2 justify-content-center">
 					<div class="col-md-5">
 						<div class="ratio ratio-1x1"
-							style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Greenville%20Deli,%20Rathmines+(Greenville%20Deli%20Rathmines)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe></div>
+							 style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Greenville%20Deli,%20Rathmines+(Greenville%20Deli%20Rathmines)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe></div>
 					</div>
 					<div class="col-md-6 bg-black px-4 py-4 rounded-3 text-white my-4 d-flex flex-column gap-4">
 						<div class="d-flex justify-content-center">
@@ -96,7 +107,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row container-sm gap-2 justify-content-center">
+				<div class="row container-md gap-2 justify-content-center">
 					<div class="col-md-6 bg-black px-4 py-4 rounded-3 text-white my-4 d-flex flex-column gap-4">
 						<div class="d-flex justify-content-center">
 							<h3>Inchicore</h3>
@@ -118,7 +129,7 @@
 					</div>
 					<div class="col-md-5">
 						<div class="ratio ratio-1x1"
-							style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Greenville%20Deli,%20Inchicore+(Greenville%20Deli%20Rathmines)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe></div>
+							 style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Greenville%20Deli,%20Inchicore+(Greenville%20Deli%20Rathmines)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe></div>
 					</div>
 				</div>
 
@@ -130,15 +141,15 @@
 				<div class="container-sm p-5 d-flex flex-column align-items-center gap-4">
 					<h3>More Information</h3>
 					<div class="p-0 container-sm border-top border-black border-3 d-flex justify-content-start mb-4">
-						<img src="images/bread.jpg" class="img-fit w-25 ratio ratio-1x1" alt=""/>
+						<img src="images/bread.jpg" class="img-fit ratio ratio-1x1" alt=""/>
 						<div class="m-3">
 							<h4 class="">Office Catering</h4>
 							<p class="">We offer Office Catering services to all local businesses. If you would like to get in touch regarding office catering, please email or ring us.</p>
 						</div>
 					</div>
 
-					<div class="p-0 container-sm border-top border-black border-3 d-flex justify-content-start mb-4">
-						<img src="images/pexels-photo-1199562.jpeg" class="img-fit w-25 ratio ratio-1x1" alt=""/>
+					<div class="p-0 container-sm border-top border-black border-3 d-flex justify-content-start mb-4 ">
+						<img src="images/pexels-photo-1199562.jpeg" class="img-fit p-0 ratio ratio-1x1" alt=""/>
 						<div class="m-3">
 							<h4 class="">Vegan / Vegetarian Menu</h4>
 							<p class="">Vegan and vegetarian menus are available both online and in store. If you would like more information, please see this section, or ask us in store.</p>
@@ -146,12 +157,26 @@
 					</div>
 
 					<div class="p-0 container-sm border-top border-black border-3 d-flex justify-content-start mb-4">
-						<img src="images/handshake.jpg" class="img-fit w-25 ratio ratio-1x1" alt=""/>
+						<img src="images/handshake.jpg" class="img-fit ratio ratio-1x1" alt=""/>
 						<div class="m-3">
 							<h4 class="">Allergens / Dietary Requirements</h4>
 							<p class="">Vegan and vegetarian menus are available both online and in store. If you would like more information, please see this section, or ask us in store.</p>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="gallery-section" class="container-fluid py-5 bg-light p-4">
+			<div class="container-sm d-flex align-items-center flex-column gap-4 p-4">
+				<h3>Gallery</h3>
+				<div id="gallery-images" class="row gap-0">
+					<img class="p-0 col-md-4" src="images/2023-12-14_19-40.png"/>
+					<img class="p-0 col-md-4" src="images/2023-12-14_19-41.png"/>
+					<img class="p-0 col-md-4" src="images/2023-12-14_19-41_1.png"/>
+					<img class="p-0 col-md-4" src="images/2023-12-14_19-41_2.png"/>
+					<img class="p-0 col-md-4" src="images/mural.jpg"/>
+					<img class="p-0 col-md-4" src="images/2023-12-14_19-41_3.png"/>
 				</div>
 			</div>
 		</div>

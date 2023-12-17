@@ -8,7 +8,7 @@ That is the brief
 
 - Do the entire thing
 
-- [ ] - Finish figma design
+- [x] - Finish figma design
 
 	- [x] - Landing page
 
@@ -16,7 +16,7 @@ That is the brief
 
 	- [x] - Quick links
 
-	- [ ] - Footer
+	- [x] - Footer
 
 	- [x] - Nav
 
@@ -26,4 +26,8 @@ That is the brief
 
 - [ ] - Finish bootstrap implementation
 
-	- [ ] - Make sure it's responsive!!
+	- [x] - Make sure it's responsive!!
+
+    - [ ] - Make navbar collapse and all that shit
+
+- [ ] - Do video
